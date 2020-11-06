@@ -1,0 +1,28 @@
+@import "src/styles/main";
+
+#companies-table {
+	margin-top: 25px;
+	Table {
+		margin-left: $margin_left;
+		width: $primary_width;
+		tr:nth-child(even){background-color: #f2f2f2;}
+		th {
+			background-color: $primary_color;
+			color: #ffffff;
+			text-align: center;
+		}
+		td {
+			text-align: center;
+		}
+		.edit-btn {
+			display: block;
+			width: 90%;
+			background-color: $primary_color;
+			color: #ffffff;
+			text-decoration: none;
+		}
+		.th-select {
+			background-color: $primary_color;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+@import "src/styles/main";
+
+#all-companies {
+	.add-link {
+		margin-top: $margin_top;
+		margin-left: $margin_left;
+		width: 300px;
+		height: 50px;
+		background-color: $primary_color;
+		a {
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration: none;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			p {
+				margin-top: 8px;
+			}
+		}
+	}
+}
